@@ -1,0 +1,7 @@
+ZBLiveBarrage.xcodeproj/xcuserdata/
+ZBLiveBarrage.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+ZBLiveBarrage.xcodeproj/project.xcworkspace/xcuserdata/
