@@ -127,12 +127,13 @@
                     self.count = 0;
                 }
                 
-//                NSLog(@"%ld", self.count);
+//                NSLog(@"弹幕剩余 -- %ld条", self.count);
 
             }];
         }
     }
     
+    // 再次执行 creatBarrage 方法
     [self performSelector:@selector(creatBarrage) withObject:nil afterDelay:0.1f];
 }
 
@@ -215,7 +216,7 @@
     // 获取动画中，控件的frame
     CGRect rect = [oldBarrage.layer.presentationLayer frame];
     if (rect.origin.x>BARRAGE_WIDTH - oldBarrage.frame.size.width) {
-        // 弹道当前弹幕还没完全显示在屏幕中，返回NO
+        // 当前弹幕还没完全显示在屏幕中，返回NO
         return NO;
     }else if (rect.size.width == 0)
     {
@@ -280,7 +281,7 @@
 - (void)setChannelCount:(NSInteger)channelCount
 {
     
-    if (self.channelArray.count < channelCount) { // 新轨道书大于旧轨道数
+    if (self.channelArray.count < channelCount) { // 新轨道数大于旧轨道数
         
         for (NSInteger row = self.channelArray.count; row < channelCount; row++) {
             NSNumber *number = [NSNumber numberWithBool:YES];

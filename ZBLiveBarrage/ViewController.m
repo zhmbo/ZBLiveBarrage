@@ -21,6 +21,7 @@
 
 @property (nonatomic, strong) ZBLiveBarrage *barrageView;
 
+
 @end
 
 @implementation ViewController
@@ -91,6 +92,11 @@
     ZBTestLiveBarrageCell *testCell = (ZBTestLiveBarrageCell *)cell;
     
     [[[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"%@ 被点击了！！", testCell.testModel.name] message:nil delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
+}
+
+- (void)zb_barrageView:(ZBLiveBarrage *)barrageView willDisplayCell:(ZBLiveBarrageCell *)cell
+{
+    
 }
 
 #pragma mark - <Setter/Getter>

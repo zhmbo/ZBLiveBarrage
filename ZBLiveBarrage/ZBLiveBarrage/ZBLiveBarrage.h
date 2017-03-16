@@ -46,11 +46,11 @@
  */
 - (void)zb_barrageViewCompletedCurrentAnimations;
 /**
- *  弹幕即将显示时调用
+ *  弹幕即将显示时回调
  */
 - (void)zb_barrageView:(ZBLiveBarrage *)barrageView willDisplayCell:(ZBLiveBarrageCell *)cell;
 /**
- *  弹幕显示完成调用
+ *  弹幕显示完成回调
  */
 - (void)zb_barrageView:(ZBLiveBarrage *)barrageView didEndDisplayingCell:(ZBLiveBarrageCell *)cell;
 
