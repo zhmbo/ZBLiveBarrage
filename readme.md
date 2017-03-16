@@ -14,7 +14,8 @@
 - 我们弹幕家族自带磁场从来不会叠加碰撞的哦(⊙o⊙)；
 - 你点我我就告诉你你点的是我而不是我爸（superView）也不会是我的兄弟姐妹O(∩_∩)O~：
 
-![弹幕家谱.png](http://upload-images.jianshu.io/upload_images/1874013-2577c13823d6b53c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![弹幕家谱.png](http://github.com/zhang-bao/ZBLiveBarrage/raw/masterßß/barrageCennetion.png)
+)
 - 直播弹幕 ** ZBLiveBarrage ** 最懂你！！
 
 ### 目录结构：
