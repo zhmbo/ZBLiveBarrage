@@ -1,8 +1,6 @@
 ### ZBLiveBarrage
 ***
-
-### 前言
-> 此弹幕来源于我上一家公司直播(PS:直播不好混啊！)项目中，最近抽时间整理出来给正在直播前线奋斗的码哥们以供参考。
+直播应用中一套弹幕实现方案。
 
 ###### 弹幕效果:
 ![弹幕效果图.gif](http://upload-images.jianshu.io/upload_images/1874013-eb0339d944174d28.gif?imageMogr2/auto-orient/strip)
@@ -163,9 +161,12 @@ if (【老弹幕】还没完全显示在屏幕中) {
 ***
 这一套弹幕实现核心代码在于`弹幕碰撞监测`那部分，是不是很简单那？
 
+如果觉得对您有所帮助，点击 Star 666 !
+
 
 ## 安装
 ***
 #### CocoaPods
 1. 在 Podfile 中添加 pod 'ZBLiveBarrage'。
 2. 执行 pod install 或 pod update。
+3. 具体应用请下载项目查看。
