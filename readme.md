@@ -3,7 +3,7 @@
 直播应用中一套弹幕实现方案。
 
 ###### 弹幕效果:
-![image](http://upload-images.jianshu.io/upload_images/1874013-eb0339d944174d28.gif?imageMogr2/auto-orient/strip)
+![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageEffect.gif)
 
 
 ###### 弹幕君说:
@@ -163,6 +163,8 @@ if (【老弹幕】还没完全显示在屏幕中) {
 这一套弹幕实现核心代码在于`弹幕碰撞监测`那部分，是不是很简单那？
 
 如果觉得对您有所帮助，点击 Star 666 !
+
+详细分析[简书地址](http://www.jianshu.com/p/46039a38d170) PS：项目里的注释写的很详细哦~
 
 
 ## 安装
