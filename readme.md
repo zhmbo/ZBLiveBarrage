@@ -1,11 +1,11 @@
-### ZBLiveBarrage
+## ZBLiveBarrage
 ***
 直播应用中一套弹幕实现方案。
 
-##### 弹幕效果:
+### 弹幕效果:
 ![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageEffect.gif)
 
-##### 弹幕君说:
+### 弹幕君说:
 - 我会飞~~~(gun~，你咋不上天！！)；
 - 我的大小你做主；
 - 我飞的速度你来定，让我飞多快我飞多快（PS:恩！真听话）；
@@ -13,19 +13,19 @@
 - 我们弹幕家族自带磁场从来不会叠加碰撞的哦(⊙o⊙)；
 - 你点我我就告诉你你点的是我而不是我爸（superView）也不会是我的兄弟姐妹O(∩_∩)O~：
 
-![image](http://upload-images.jianshu.io/upload_images/1874013-2577c13823d6b53c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageCennetion.png)
 )
 - 直播弹幕 ** ZBLiveBarrage ** 最懂你！！
 
 ### 目录结构：
-![image](http://upload-images.jianshu.io/upload_images/1874013-afa91c4f92aae840.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageStructure.png)
 
-### 技术剖析：
+## 技术剖析：
 
 详细分析请移步至[简书地址](http://www.jianshu.com/p/46039a38d170) 
 
 
-### 小结
+## 小结
 ***
 
 这一套弹幕实现核心代码在于`弹幕碰撞监测`那部分，是不是很简单那？
