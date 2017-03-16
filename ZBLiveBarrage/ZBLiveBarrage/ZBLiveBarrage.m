@@ -28,6 +28,12 @@
 /** 当前弹幕状态 */
 @property (nonatomic, assign) EStatusOfBarrage                          status;
 
+/** 轨道数 */
+@property (nonatomic, assign) NSInteger                                 channelCount;
+
+/** 弹幕间隙 */
+@property (nonatomic, assign) CGFloat                                   margin;
+
 @end
 
 @implementation ZBLiveBarrage
@@ -69,16 +75,17 @@
                 [self addSubview:barrageView];
             }
             
+            // 计算弹幕在哪里跑合适
             CGFloat barrageY = 0;
             
-            if (row > 0) {
+            if (row > 0) { // 若果不是第一条跑道
                 
-                if ([_channelArray[row - 1] isKindOfClass:[ZBLiveBarrageCell class]]) {
-                    
+//                if ([_channelArray[row - 1] isKindOfClass:[ZBLiveBarrageCell class]]) {
+                
                     ZBLiveBarrageCell *rowLastBarrage = (ZBLiveBarrageCell*)_channelArray[row-1];
                     
                     barrageY = CGRectGetMaxY(rowLastBarrage.frame) + barrageView.margin;
-                }
+//                }
                 
             }
             
@@ -215,15 +222,15 @@
         // 刚刚添加的控件，有可能取到frame的值全为0，也要返回NO
         return NO;
     }
-    else if (oldBarrage.barrageSpeed == newBarrage.barrageSpeed && oldBarrage.frame.size.width > newBarrage.frame.size.width) {
+    else if (oldBarrage.barrageShowDuration == newBarrage.barrageShowDuration && oldBarrage.frame.size.width > newBarrage.frame.size.width) {
         // 排除了以上两种情况，比较弹幕的宽度（也就是比较速度）,新弹幕宽度小也就是永远追不上上一条弹幕,返回YES
         return YES;
     }else
     {
         // time为新弹幕从出现到屏幕最左边的时间（此时弹幕整体都在屏幕内，并不是弹幕消失的时间）
-        CGFloat time = BARRAGE_WIDTH/(BARRAGE_WIDTH+newBarrage.frame.size.width)*newBarrage.barrageSpeed;
+        CGFloat time = BARRAGE_WIDTH/(BARRAGE_WIDTH+newBarrage.frame.size.width)*newBarrage.barrageShowDuration;
         // endX为此时老弹幕的frame的x值
-        CGFloat endX = rect.origin.x - time/(oldBarrage.barrageSpeed)*(BARRAGE_WIDTH + oldBarrage.frame.size.width);
+        CGFloat endX = rect.origin.x - time/(oldBarrage.barrageShowDuration)*(BARRAGE_WIDTH + oldBarrage.frame.size.width);
         if (endX < -oldBarrage.frame.size.width) {
             // 若此时老弹幕已经完全从屏幕中消失，返回YES
             return YES;

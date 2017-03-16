@@ -54,9 +54,11 @@
     // 创建弹幕
     ZBTestLiveBarrageCell *barrageCell = [ZBTestLiveBarrageCell new];
     // 给每条弹幕设置随机速度，实际应用中根据不同弹幕设置不同速度，也可固定值
-    barrageCell.barrageSpeed = [@[@3,@4,@5,@6][rand()%4] floatValue];
+    barrageCell.barrageShowDuration = [@[@3,@4,@5,@6][rand()%4] floatValue];
     // 弹幕延时消失
 //    barrageCell.afterDelayExit = 3;
+    // 延迟展示时间
+//    barrageCell.barrageDelay = 1;
     // 弹道数
     barrageCell.channelCount = 4;
     // 距离上一条弹幕的距离，可固定值

@@ -19,13 +19,16 @@ typedef enum : NSUInteger {
 /** 弹幕︿(￣︶￣)︿飞行速度体积 */
 @property (nonatomic, assign) CGSize            barrageSize;
 
-/** 弹幕︿(￣︶￣)︿飞行速度大小 (其实是个伪速度 此值伪弹幕完成动画所需时间) */
-@property (nonatomic, assign) CGFloat           barrageSpeed;
+/** 弹幕︿(￣︶￣)︿飞行速度大小 (其实是个伪速度 此值伪弹幕完成动画所需时间) 默认为3s */
+@property (nonatomic, assign) CGFloat           barrageShowDuration;
+
+/** 弹幕横向展示之前延迟时间 默认为0s */
+@property (nonatomic, assign) CGFloat           barrageDelay;
 
 /** 弹幕ヾ(o◕∀◕)ﾉヾ的新衣服 */
 @property (nonatomic, strong) id                model;
 /**
- *  我的跑到轨道数
+ *  我的跑到轨道数 默认3条
  */
 @property (nonatomic, assign) NSInteger         channelCount;
 /**

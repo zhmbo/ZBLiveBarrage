@@ -18,12 +18,6 @@
  */
 @property (weak, nonatomic) id<ZBLiveBarrageDelegate> delegate;
 
-/** 轨道数 */
-@property (nonatomic, assign) NSInteger                                 channelCount;
-
-/** 弹幕间隙 */
-@property (nonatomic, assign) CGFloat                                   margin;
-
 /**
  *  发送弹幕（必须先调用 startAnimation 函数 否则无效，会在 startAnimation 后启动）
  */

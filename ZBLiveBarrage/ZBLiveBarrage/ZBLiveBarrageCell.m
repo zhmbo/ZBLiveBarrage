@@ -25,11 +25,12 @@
     if (self) {
         
         _barrageSize = CGSizeMake(200, 40);
-        _barrageSpeed = 4;
+        _barrageShowDuration = 3;
+        _barrageDelay = 0;
+        _afterDelayExit = 0;
         _model = nil;
         _channelCount = 3;
         _margin = 0;
-        _afterDelayExit = 0;
         _status = EStatusOfBarrage_Stop;
         _afterDelayAble = NO;
         
@@ -37,20 +38,22 @@
     return self;
 }
 
+// 实时监测当前frame
 - (void)receiveFrameNewValue
 {
     CGFloat barrageX = [[self.layer presentationLayer] frame].origin.x;
     CGFloat barrageWidth = self.frame.size.width;
     
     // 真实速度
-    CGFloat speed = (self.superview.frame.size.width + barrageWidth) / self.barrageSpeed;
+    CGFloat speed = (self.superview.frame.size.width + barrageWidth) / self.barrageShowDuration;
     
     // 开始谢幕所需时间
     CGFloat beginExitTime = barrageWidth / speed;
     
     if (_afterDelayExit > 0) {
+        // 当前为延时退出屏幕状态
         self.status = EStatusOfBarrage_AfterDelay;
-        if (-1< barrageX < 1) {
+        if (-0.5< barrageX < 0.5) {
             
             if (_afterDelayAble) { return;}
             _afterDelayAble = YES;
@@ -73,7 +76,7 @@
     [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
     
     // 开始弹幕动画 UIViewAnimationOptionCurveLinear 匀速动画
-    [UIView animateWithDuration:self.barrageSpeed delay:0 options:(UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction) animations:^{
+    [UIView animateWithDuration:self.barrageShowDuration delay:self.barrageDelay options:(UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction) animations:^{
         
         if (animations) {
             animations();
