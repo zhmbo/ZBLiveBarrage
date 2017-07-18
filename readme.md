@@ -1,6 +1,6 @@
 ## ZBLiveBarrage
 
-直播应用中一套弹幕实现方案。
+> 直播应用中一套弹幕实现方案。
 
 ### 弹幕效果:
 ![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageEffect.gif)
