@@ -15,7 +15,7 @@
 
 ![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageCennetion.png)
 
-- 直播弹幕 ** ZBLiveBarrage ** 最懂你！！
+- 直播弹幕 **ZBLiveBarrage** 最懂你！！
 
 ### 目录结构：
 ![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageStructure.png)
