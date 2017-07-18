@@ -14,7 +14,7 @@
 - 你点我我就告诉你你点的是我而不是我爸（superView）也不会是我的兄弟姐妹O(∩_∩)O~：
 
 ![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageCennetion.png)
-)
+
 - 直播弹幕 ** ZBLiveBarrage ** 最懂你！！
 
 ### 目录结构：
