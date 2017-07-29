@@ -7,7 +7,7 @@
 //
 
 #import "ZBTestLiveBarrageCell.h"
-#import <Masonry/Masonry.h>
+#import "Masonry/Masonry.h"
 #import "ZBTestModel.h"
 
 #define kBarrageHeight 40

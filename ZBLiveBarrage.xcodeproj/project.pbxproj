@@ -13,8 +13,6 @@
 		6DEA77A81E79156700F3512C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77A61E79156700F3512C /* Main.storyboard */; };
 		6DEA77AA1E79156700F3512C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77A91E79156700F3512C /* Assets.xcassets */; };
 		6DEA77AD1E79156700F3512C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77AB1E79156700F3512C /* LaunchScreen.storyboard */; };
-		6DEA77B81E79156700F3512C /* ZBLiveBarrageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77B71E79156700F3512C /* ZBLiveBarrageTests.m */; };
-		6DEA77C31E79156800F3512C /* ZBLiveBarrageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77C21E79156800F3512C /* ZBLiveBarrageUITests.m */; };
 		6DEA77D51E7919CB00F3512C /* ZBLiveBarrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77D21E7919CB00F3512C /* ZBLiveBarrage.m */; };
 		6DEA77D61E7919CB00F3512C /* ZBLiveBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77D41E7919CB00F3512C /* ZBLiveBarrageCell.m */; };
 		6DEA77DC1E79234C00F3512C /* ZBTestLiveBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA77DB1E79234C00F3512C /* ZBTestLiveBarrageCell.m */; };
@@ -25,25 +23,17 @@
 		6DEA77F71E793B2900F3512C /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77F11E793B2900F3512C /* image4.jpg */; };
 		6DEA77F81E793B2900F3512C /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77F21E793B2900F3512C /* image0.jpg */; };
 		6DEA77F91E793B2900F3512C /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA77F31E793B2900F3512C /* image5.jpg */; };
-		B57C4BC786C5FD16577A8F44 /* libPods-ZBLiveBarrage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7FCF7A8BC00DBA132D8B54 /* libPods-ZBLiveBarrage.a */; };
+		9A6377DF1F2C155100F4A254 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377C61F2C155100F4A254 /* MASCompositeConstraint.m */; };
+		9A6377E01F2C155100F4A254 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377C91F2C155100F4A254 /* MASConstraint.m */; };
+		9A6377E11F2C155100F4A254 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377CB1F2C155100F4A254 /* MASConstraintMaker.m */; };
+		9A6377E21F2C155100F4A254 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377CD1F2C155100F4A254 /* MASLayoutConstraint.m */; };
+		9A6377E31F2C155100F4A254 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377D11F2C155100F4A254 /* MASViewAttribute.m */; };
+		9A6377E41F2C155100F4A254 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377D31F2C155100F4A254 /* MASViewConstraint.m */; };
+		9A6377E51F2C155100F4A254 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377D51F2C155100F4A254 /* NSArray+MASAdditions.m */; };
+		9A6377E61F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377D81F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9A6377E71F2C155100F4A254 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377DA1F2C155100F4A254 /* View+MASAdditions.m */; };
+		9A6377E81F2C155100F4A254 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6377DD1F2C155100F4A254 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6DEA77B41E79156700F3512C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DEA77921E79156700F3512C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DEA77991E79156700F3512C;
-			remoteInfo = ZBLiveBarrage;
-		};
-		6DEA77BF1E79156800F3512C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DEA77921E79156700F3512C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DEA77991E79156700F3512C;
-			remoteInfo = ZBLiveBarrage;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6DEA779A1E79156700F3512C /* ZBLiveBarrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBLiveBarrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,12 +46,6 @@
 		6DEA77A91E79156700F3512C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DEA77AC1E79156700F3512C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DEA77AE1E79156700F3512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DEA77B31E79156700F3512C /* ZBLiveBarrageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBLiveBarrageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DEA77B71E79156700F3512C /* ZBLiveBarrageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBLiveBarrageTests.m; sourceTree = "<group>"; };
-		6DEA77B91E79156700F3512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DEA77BE1E79156800F3512C /* ZBLiveBarrageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBLiveBarrageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DEA77C21E79156800F3512C /* ZBLiveBarrageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBLiveBarrageUITests.m; sourceTree = "<group>"; };
-		6DEA77C41E79156800F3512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEA77D11E7919CB00F3512C /* ZBLiveBarrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBLiveBarrage.h; sourceTree = "<group>"; };
 		6DEA77D21E7919CB00F3512C /* ZBLiveBarrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBLiveBarrage.m; sourceTree = "<group>"; };
 		6DEA77D31E7919CB00F3512C /* ZBLiveBarrageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBLiveBarrageCell.h; sourceTree = "<group>"; };
@@ -76,28 +60,35 @@
 		6DEA77F11E793B2900F3512C /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
 		6DEA77F21E793B2900F3512C /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
 		6DEA77F31E793B2900F3512C /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
-		6E2E5FBCFEFCF854051CD146 /* Pods-ZBLiveBarrage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBLiveBarrage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBLiveBarrage/Pods-ZBLiveBarrage.debug.xcconfig"; sourceTree = "<group>"; };
-		AB7FCF7A8BC00DBA132D8B54 /* libPods-ZBLiveBarrage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZBLiveBarrage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFAAFCB50E03D9DBCB742DD3 /* Pods-ZBLiveBarrage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBLiveBarrage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBLiveBarrage/Pods-ZBLiveBarrage.release.xcconfig"; sourceTree = "<group>"; };
+		9A6377C51F2C155100F4A254 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9A6377C61F2C155100F4A254 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9A6377C71F2C155100F4A254 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9A6377C81F2C155100F4A254 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9A6377C91F2C155100F4A254 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		9A6377CA1F2C155100F4A254 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		9A6377CB1F2C155100F4A254 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		9A6377CC1F2C155100F4A254 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9A6377CD1F2C155100F4A254 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		9A6377CE1F2C155100F4A254 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9A6377CF1F2C155100F4A254 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		9A6377D01F2C155100F4A254 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		9A6377D11F2C155100F4A254 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		9A6377D21F2C155100F4A254 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		9A6377D31F2C155100F4A254 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9A6377D41F2C155100F4A254 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9A6377D51F2C155100F4A254 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9A6377D61F2C155100F4A254 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9A6377D71F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9A6377D81F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9A6377D91F2C155100F4A254 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		9A6377DA1F2C155100F4A254 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		9A6377DB1F2C155100F4A254 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9A6377DC1F2C155100F4A254 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		9A6377DD1F2C155100F4A254 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6DEA77971E79156700F3512C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B57C4BC786C5FD16577A8F44 /* libPods-ZBLiveBarrage.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DEA77B01E79156700F3512C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DEA77BB1E79156800F3512C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,11 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6DEA779C1E79156700F3512C /* ZBLiveBarrage */,
-				6DEA77B61E79156700F3512C /* ZBLiveBarrageTests */,
-				6DEA77C11E79156800F3512C /* ZBLiveBarrageUITests */,
 				6DEA779B1E79156700F3512C /* Products */,
-				B1EF54B690A5BCBA195D10DF /* Pods */,
-				E2BF3536EEE7CF738F3E4B37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				6DEA779A1E79156700F3512C /* ZBLiveBarrage.app */,
-				6DEA77B31E79156700F3512C /* ZBLiveBarrageTests.xctest */,
-				6DEA77BE1E79156800F3512C /* ZBLiveBarrageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,28 +138,11 @@
 		6DEA779D1E79156700F3512C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A6377C31F2C155100F4A254 /* Masonry */,
 				6DEA77ED1E793B2900F3512C /* Images */,
 				6DEA779E1E79156700F3512C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6DEA77B61E79156700F3512C /* ZBLiveBarrageTests */ = {
-			isa = PBXGroup;
-			children = (
-				6DEA77B71E79156700F3512C /* ZBLiveBarrageTests.m */,
-				6DEA77B91E79156700F3512C /* Info.plist */,
-			);
-			path = ZBLiveBarrageTests;
-			sourceTree = "<group>";
-		};
-		6DEA77C11E79156800F3512C /* ZBLiveBarrageUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6DEA77C21E79156800F3512C /* ZBLiveBarrageUITests.m */,
-				6DEA77C41E79156800F3512C /* Info.plist */,
-			);
-			path = ZBLiveBarrageUITests;
 			sourceTree = "<group>";
 		};
 		6DEA77D01E7919CB00F3512C /* ZBLiveBarrage */ = {
@@ -201,21 +169,36 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		B1EF54B690A5BCBA195D10DF /* Pods */ = {
+		9A6377C31F2C155100F4A254 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				6E2E5FBCFEFCF854051CD146 /* Pods-ZBLiveBarrage.debug.xcconfig */,
-				EFAAFCB50E03D9DBCB742DD3 /* Pods-ZBLiveBarrage.release.xcconfig */,
+				9A6377C51F2C155100F4A254 /* MASCompositeConstraint.h */,
+				9A6377C61F2C155100F4A254 /* MASCompositeConstraint.m */,
+				9A6377C71F2C155100F4A254 /* MASConstraint+Private.h */,
+				9A6377C81F2C155100F4A254 /* MASConstraint.h */,
+				9A6377C91F2C155100F4A254 /* MASConstraint.m */,
+				9A6377CA1F2C155100F4A254 /* MASConstraintMaker.h */,
+				9A6377CB1F2C155100F4A254 /* MASConstraintMaker.m */,
+				9A6377CC1F2C155100F4A254 /* MASLayoutConstraint.h */,
+				9A6377CD1F2C155100F4A254 /* MASLayoutConstraint.m */,
+				9A6377CE1F2C155100F4A254 /* Masonry.h */,
+				9A6377CF1F2C155100F4A254 /* MASUtilities.h */,
+				9A6377D01F2C155100F4A254 /* MASViewAttribute.h */,
+				9A6377D11F2C155100F4A254 /* MASViewAttribute.m */,
+				9A6377D21F2C155100F4A254 /* MASViewConstraint.h */,
+				9A6377D31F2C155100F4A254 /* MASViewConstraint.m */,
+				9A6377D41F2C155100F4A254 /* NSArray+MASAdditions.h */,
+				9A6377D51F2C155100F4A254 /* NSArray+MASAdditions.m */,
+				9A6377D61F2C155100F4A254 /* NSArray+MASShorthandAdditions.h */,
+				9A6377D71F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9A6377D81F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9A6377D91F2C155100F4A254 /* View+MASAdditions.h */,
+				9A6377DA1F2C155100F4A254 /* View+MASAdditions.m */,
+				9A6377DB1F2C155100F4A254 /* View+MASShorthandAdditions.h */,
+				9A6377DC1F2C155100F4A254 /* ViewController+MASAdditions.h */,
+				9A6377DD1F2C155100F4A254 /* ViewController+MASAdditions.m */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E2BF3536EEE7CF738F3E4B37 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB7FCF7A8BC00DBA132D8B54 /* libPods-ZBLiveBarrage.a */,
-			);
-			name = Frameworks;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,12 +208,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DEA77C71E79156800F3512C /* Build configuration list for PBXNativeTarget "ZBLiveBarrage" */;
 			buildPhases = (
-				49D32A7C178D4EFAF43FF9B5 /* [CP] Check Pods Manifest.lock */,
 				6DEA77961E79156700F3512C /* Sources */,
 				6DEA77971E79156700F3512C /* Frameworks */,
 				6DEA77981E79156700F3512C /* Resources */,
-				2938E6BBB36A10F8E7F761F2 /* [CP] Embed Pods Frameworks */,
-				9CCE6B34F907D03DBD55372E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,42 +220,6 @@
 			productName = ZBLiveBarrage;
 			productReference = 6DEA779A1E79156700F3512C /* ZBLiveBarrage.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6DEA77B21E79156700F3512C /* ZBLiveBarrageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6DEA77CA1E79156800F3512C /* Build configuration list for PBXNativeTarget "ZBLiveBarrageTests" */;
-			buildPhases = (
-				6DEA77AF1E79156700F3512C /* Sources */,
-				6DEA77B01E79156700F3512C /* Frameworks */,
-				6DEA77B11E79156700F3512C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6DEA77B51E79156700F3512C /* PBXTargetDependency */,
-			);
-			name = ZBLiveBarrageTests;
-			productName = ZBLiveBarrageTests;
-			productReference = 6DEA77B31E79156700F3512C /* ZBLiveBarrageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6DEA77BD1E79156800F3512C /* ZBLiveBarrageUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6DEA77CD1E79156800F3512C /* Build configuration list for PBXNativeTarget "ZBLiveBarrageUITests" */;
-			buildPhases = (
-				6DEA77BA1E79156800F3512C /* Sources */,
-				6DEA77BB1E79156800F3512C /* Frameworks */,
-				6DEA77BC1E79156800F3512C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6DEA77C01E79156800F3512C /* PBXTargetDependency */,
-			);
-			name = ZBLiveBarrageUITests;
-			productName = ZBLiveBarrageUITests;
-			productReference = 6DEA77BE1E79156800F3512C /* ZBLiveBarrageUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -290,18 +234,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 487PQPPTGA;
 						ProvisioningStyle = Automatic;
-					};
-					6DEA77B21E79156700F3512C = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 487PQPPTGA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6DEA77991E79156700F3512C;
-					};
-					6DEA77BD1E79156800F3512C = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 487PQPPTGA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6DEA77991E79156700F3512C;
 					};
 				};
 			};
@@ -319,8 +251,6 @@
 			projectRoot = "";
 			targets = (
 				6DEA77991E79156700F3512C /* ZBLiveBarrage */,
-				6DEA77B21E79156700F3512C /* ZBLiveBarrageTests */,
-				6DEA77BD1E79156800F3512C /* ZBLiveBarrageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,115 +272,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DEA77B11E79156700F3512C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DEA77BC1E79156800F3512C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2938E6BBB36A10F8E7F761F2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBLiveBarrage/Pods-ZBLiveBarrage-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		49D32A7C178D4EFAF43FF9B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9CCE6B34F907D03DBD55372E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBLiveBarrage/Pods-ZBLiveBarrage-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6DEA77961E79156700F3512C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6377E51F2C155100F4A254 /* NSArray+MASAdditions.m in Sources */,
+				9A6377E41F2C155100F4A254 /* MASViewConstraint.m in Sources */,
 				6DEA77A51E79156700F3512C /* ViewController.m in Sources */,
+				9A6377E11F2C155100F4A254 /* MASConstraintMaker.m in Sources */,
+				9A6377E71F2C155100F4A254 /* View+MASAdditions.m in Sources */,
 				6DEA77DC1E79234C00F3512C /* ZBTestLiveBarrageCell.m in Sources */,
+				9A6377E01F2C155100F4A254 /* MASConstraint.m in Sources */,
 				6DEA77DF1E7935A900F3512C /* ZBTestModel.m in Sources */,
+				9A6377E31F2C155100F4A254 /* MASViewAttribute.m in Sources */,
+				9A6377E61F2C155100F4A254 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				6DEA77A21E79156700F3512C /* AppDelegate.m in Sources */,
+				9A6377DF1F2C155100F4A254 /* MASCompositeConstraint.m in Sources */,
+				9A6377E21F2C155100F4A254 /* MASLayoutConstraint.m in Sources */,
 				6DEA77D51E7919CB00F3512C /* ZBLiveBarrage.m in Sources */,
 				6DEA77D61E7919CB00F3512C /* ZBLiveBarrageCell.m in Sources */,
+				9A6377E81F2C155100F4A254 /* ViewController+MASAdditions.m in Sources */,
 				6DEA779F1E79156700F3512C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DEA77AF1E79156700F3512C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DEA77B81E79156700F3512C /* ZBLiveBarrageTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DEA77BA1E79156800F3512C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DEA77C31E79156800F3512C /* ZBLiveBarrageUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6DEA77B51E79156700F3512C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DEA77991E79156700F3512C /* ZBLiveBarrage */;
-			targetProxy = 6DEA77B41E79156700F3512C /* PBXContainerItemProxy */;
-		};
-		6DEA77C01E79156800F3512C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DEA77991E79156700F3512C /* ZBLiveBarrage */;
-			targetProxy = 6DEA77BF1E79156800F3512C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6DEA77A61E79156700F3512C /* Main.storyboard */ = {
@@ -562,7 +411,6 @@
 		};
 		6DEA77C81E79156800F3512C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E2E5FBCFEFCF854051CD146 /* Pods-ZBLiveBarrage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
@@ -576,7 +424,6 @@
 		};
 		6DEA77C91E79156800F3512C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFAAFCB50E03D9DBCB742DD3 /* Pods-ZBLiveBarrage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
@@ -585,56 +432,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "git.zhang-bao.ZBLiveBarrage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6DEA77CB1E79156800F3512C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBLiveBarrageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "git.zhang-bao.ZBLiveBarrageTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBLiveBarrage.app/ZBLiveBarrage";
-			};
-			name = Debug;
-		};
-		6DEA77CC1E79156800F3512C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBLiveBarrageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "git.zhang-bao.ZBLiveBarrageTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBLiveBarrage.app/ZBLiveBarrage";
-			};
-			name = Release;
-		};
-		6DEA77CE1E79156800F3512C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBLiveBarrageUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "git.zhang-bao.ZBLiveBarrageUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZBLiveBarrage;
-			};
-			name = Debug;
-		};
-		6DEA77CF1E79156800F3512C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBLiveBarrageUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "git.zhang-bao.ZBLiveBarrageUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZBLiveBarrage;
 			};
 			name = Release;
 		};
@@ -655,24 +452,6 @@
 			buildConfigurations = (
 				6DEA77C81E79156800F3512C /* Debug */,
 				6DEA77C91E79156800F3512C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6DEA77CA1E79156800F3512C /* Build configuration list for PBXNativeTarget "ZBLiveBarrageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6DEA77CB1E79156800F3512C /* Debug */,
-				6DEA77CC1E79156800F3512C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6DEA77CD1E79156800F3512C /* Build configuration list for PBXNativeTarget "ZBLiveBarrageUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6DEA77CE1E79156800F3512C /* Debug */,
-				6DEA77CF1E79156800F3512C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
