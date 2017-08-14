@@ -3,7 +3,7 @@
 > 直播应用中一套弹幕实现方案。
 
 ### 弹幕效果:
-![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageEffect.gif)
+![弹幕效果图.gif](http://upload-images.jianshu.io/upload_images/1874013-eb0339d944174d28.gif?imageMogr2/auto-orient/strip)
 
 ### 弹幕君说:
 - 我会飞~~~(gun~，你咋不上天！！)；
@@ -13,12 +13,12 @@
 - 我们弹幕家族自带磁场从来不会叠加碰撞的哦(⊙o⊙)；
 - 你点我我就告诉你你点的是我而不是我爸（superView）也不会是我的兄弟姐妹O(∩_∩)O~：
 
-![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageCennetion.png)
+![弹幕家谱.png](http://upload-images.jianshu.io/upload_images/1874013-2577c13823d6b53c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 直播弹幕 **ZBLiveBarrage** 最懂你！！
 
 ### 目录结构：
-![image](https://github.com/zhang-bao/ZBLiveBarrage/blob/master/barrageStructure.png)
+![目录结构.png](http://upload-images.jianshu.io/upload_images/1874013-afa91c4f92aae840.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 技术剖析：
 
